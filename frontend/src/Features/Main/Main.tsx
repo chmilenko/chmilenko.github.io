@@ -1,12 +1,12 @@
-import React from 'react';
-import SearchInput from '../../Components/Search/Search';
-import Table from '../../Components/Table/Table';
+import React from "react";
+import SearchInput from "../../Components/Search/Search";
+import Table from "../../Components/TableData/Table/Table";
 
 function Main() {
   return (
     <div>
-     <SearchInput/>
-     <Table/>
+      <SearchInput />
+      <Table />
     </div>
   );
 }

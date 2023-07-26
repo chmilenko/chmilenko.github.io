@@ -1,0 +1,16 @@
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 13px;
+}
+
+.title {
+  width: 490px;
+  height: 58px;
+  margin-left: 120px;
+}
+
+.body {
+    width: 415px;
+    height: 60px;
+}
