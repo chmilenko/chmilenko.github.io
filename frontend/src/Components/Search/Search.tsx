@@ -16,6 +16,7 @@ export default function CustomizedInputBase() {
         width: 631,
         height: 52,
         backgroundColor: "#5a5c66",
+        marginTop: 1
       }}
     >
       <InputBase

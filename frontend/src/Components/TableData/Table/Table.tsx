@@ -32,7 +32,6 @@ function Table() {
           <TableOneColumn data={data} key={data.id} />
         ))}
       </div>
-
       <SelectPage
         onChangePage={handleClickSetPage}
         page={page}

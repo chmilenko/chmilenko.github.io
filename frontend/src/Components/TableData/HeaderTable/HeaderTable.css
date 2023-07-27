@@ -1,23 +1,21 @@
 .headerTable {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 1077px;
   height: 54px;
   margin-top: 15px;
-  left: 226px;
   background-color: #5a5c66;
 }
 
-select {
-  background-color: #5a5c66;
-  border: none;
-  color: white;
+.idHeader {
+  margin-left: 16px;
 }
 
-.caption {
-  display: flex;
-  align-items: center;
-  justify-self: center;
-  margin: 0px 0px 0px -375px;
+.nameCaptionHeader {
+  margin-left: 175px;
 }
+
+.nameDescriptionHeader {
+  margin-left: 400px;
+}
+
