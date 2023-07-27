@@ -8,14 +8,22 @@ function HeaderTable() {
           <option>ID</option>
         </select>
       </div>
-      <div>
-        <select className="header">
-          <option>Заголовок</option>
+      <div className="caption">
+        <div className="nameCaption" style={{ color: "white" }}>
+          Заголовок
+        </div>
+        <select className="selectCaption">
+          {/* <option>UP</option>
+          <option>Down</option> */}
         </select>
       </div>
-      <div>
-        <select className="description">
-          <option>Описание</option>
+      <div className="description">
+        <div className="nameDescription" style={{ color: "white" }}>
+          Описание
+        </div>
+        <select className="descriptionSelect">
+          <option>UP</option>
+          <option>Down</option>
         </select>
       </div>
     </div>

@@ -15,7 +15,9 @@ select {
   color: white;
 }
 
-select::after {
-  border: none;
-  background-color: #5a5c66;
+.caption {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin: 0px 0px 0px -375px;
 }

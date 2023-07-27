@@ -4,7 +4,8 @@ import { useSelector } from "react-redux";
 import { RootState, useAppDispatch } from "../../../store";
 import { initialListData } from "../dataSlice";
 import TableOneColumn from "./TableOneColumn";
-import "./Table.css";
+import "./Css/Table.css";
+import SelectPage from "./SelectPage";
 
 function Table() {
   const [page, setPage] = useState(1);
@@ -31,13 +32,12 @@ function Table() {
           <TableOneColumn data={data} key={data.id} />
         ))}
       </div>
-      <div className="selectPage">
-        {Array.from(Array(10).keys()).map((index) => (
-          <button key={index} onClick={() => handleClickSetPage(index + 1)}>
-            {index + 1}
-          </button>
-        ))}
-      </div>
+
+      <SelectPage
+        onChangePage={handleClickSetPage}
+        page={page}
+        totalPages={Math.ceil(dataList.length / 10)}
+      />
     </div>
   );
 }
