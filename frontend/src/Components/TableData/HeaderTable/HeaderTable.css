@@ -19,3 +19,15 @@
   margin-left: 400px;
 }
 
+.strelka {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+.btnSort {
+  border: none;
+  outline: none;
+  background-color: #5a5c66;
+  margin-left: 10px;
+}

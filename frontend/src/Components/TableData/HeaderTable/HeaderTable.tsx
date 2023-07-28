@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./HeaderTable.css";
 function HeaderTable({
@@ -13,15 +14,30 @@ function HeaderTable({
     <div className="headerTable">
       <div className="idHeader" style={{ color: "white" }}>
         <span>ID</span>
-        <button onClick={onSortId}>Sort Id</button>
+        <img
+          src="/img/strelka.PNG"
+          className="strelka"
+          onClick={onSortId}
+          style={{ marginLeft: "20px" }}
+        />
       </div>
       <div className="nameCaptionHeader">
         <span style={{ color: "white" }}>Заголовок</span>
-        <button onClick={onSortTitle}>sort title</button>
+        <img
+          src="/img/strelka.PNG"
+          className="strelka"
+          onClick={onSortTitle}
+          style={{ marginLeft: "20px" }}
+        />
       </div>
       <div className="nameDescriptionHeader">
         <span style={{ color: "white" }}>Описание</span>
-        <button onClick={onSortBody}>sort body</button>
+        <img
+          src="/img/strelka.PNG"
+          className="strelka"
+          onClick={onSortTitle}
+          style={{ marginLeft: "20px" }}
+        />
       </div>
     </div>
   );
