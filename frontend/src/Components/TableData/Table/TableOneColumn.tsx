@@ -1,6 +1,6 @@
 import React from "react";
 import { Data } from "../Types/dataTypes";
-
+import "./Css/Table.css";
 function TableOneColumn({ data }: { data: Data }) {
   return (
     <table className="column">

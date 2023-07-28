@@ -67,7 +67,7 @@ function Table({ searchquery }: { searchquery: string }) {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="table">
       <HeaderTable
         onSortId={sortDataById}
         onSortTitle={sortDataByTittle}

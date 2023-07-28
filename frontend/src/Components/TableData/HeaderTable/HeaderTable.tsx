@@ -12,7 +12,7 @@ function HeaderTable({
 }) {
   return (
     <div className="headerTable">
-      <div className="idHeader" style={{ color: "white" }}>
+      <div className="idHeader" style={{ color: "white", fontWeight: 600 }}>
         <span>ID</span>
         <img
           src="/img/strelka.PNG"
@@ -22,7 +22,7 @@ function HeaderTable({
         />
       </div>
       <div className="nameCaptionHeader">
-        <span style={{ color: "white" }}>Заголовок</span>
+        <span style={{ color: "white", fontWeight: 600 }}>Заголовок</span>
         <img
           src="/img/strelka.PNG"
           className="strelka"
@@ -31,7 +31,7 @@ function HeaderTable({
         />
       </div>
       <div className="nameDescriptionHeader">
-        <span style={{ color: "white" }}>Описание</span>
+        <span style={{ color: "white", fontWeight: 600 }}>Описание</span>
         <img
           src="/img/strelka.PNG"
           className="strelka"
