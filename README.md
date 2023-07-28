@@ -5,4 +5,4 @@
      -Type Script
      -Material UI
 
-<img src="[https://s12.gifyu.com/images/Su8kL.gif](https://imgflip.com/gif/7u0xtw)https://imgflip.com/gif/7u0xtw" alt="Su8kL.gif" border="0" />
+<img src="https://s12.gifyu.com/images/Su8kL.gif" border="0" />
