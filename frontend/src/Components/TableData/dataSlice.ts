@@ -14,7 +14,11 @@ export const initialListData = createAsyncThunk("data/load", () =>
 const dataSlice = createSlice({
   name: "loadListData",
   initialState,
-  reducers: {},
+  reducers: {
+    sortDataListById: (state, action) => {
+      state.dataList = action.payload;
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(initialListData.fulfilled, (state, action) => {
@@ -26,4 +30,5 @@ const dataSlice = createSlice({
   },
 });
 
+export const { sortDataListById } = dataSlice.actions;
 export default dataSlice.reducer;

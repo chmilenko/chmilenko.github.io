@@ -1,13 +1,9 @@
 .column {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
-  align-items: center;
-  justify-self: center;
   height: 88px;
 }
 .id {
-  width: 60px;
+  width: 70px;
+  text-align: center;
 }
 
 .title {
@@ -15,12 +11,17 @@
   height: auto;
   margin-left: 120px;
   overflow-wrap: break-word;
+  color: #474955;
+  font-size: 13px;
+  line-height: 17.9px;
 }
 
 .body {
-  width: 415px;
   height: auto;
   overflow-wrap: break-word;
+  color: #474955;
+  font-size: 13px;
+  line-height: 17.9px;
 }
 
 .selectPage {
@@ -28,6 +29,7 @@
   align-items: center;
   justify-content: space-between;
   width: 1077px;
+  margin-top: 10px;
 }
 
 .data {
@@ -51,5 +53,22 @@
   outline: none;
   font-size: 20px;
   background-color: white;
-  color:black
+  color: black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

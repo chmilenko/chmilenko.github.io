@@ -1,23 +1,33 @@
 .headerTable {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 1077px;
   height: 54px;
   margin-top: 15px;
-  left: 226px;
   background-color: #5a5c66;
 }
 
-select {
-  background-color: #5a5c66;
+.idHeader {
+  margin-left: 16px;
+}
+
+.nameCaptionHeader {
+  margin-left: 175px;
+}
+
+.nameDescriptionHeader {
+  margin-left: 400px;
+}
+
+.strelka {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+.btnSort {
   border: none;
-  color: white;
-}
-
-.caption {
-  display: flex;
-  align-items: center;
-  justify-self: center;
-  margin: 0px 0px 0px -375px;
+  outline: none;
+  background-color: #5a5c66;
+  margin-left: 10px;
 }

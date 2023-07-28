@@ -1,30 +1,43 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./HeaderTable.css";
-function HeaderTable() {
+function HeaderTable({
+  onSortId,
+  onSortTitle,
+  onSortBody,
+}: {
+  onSortId: () => void;
+  onSortTitle: () => void;
+  onSortBody: () => void;
+}) {
   return (
     <div className="headerTable">
-      <div>
-        <select className="id">
-          <option>ID</option>
-        </select>
+      <div className="idHeader" style={{ color: "white" }}>
+        <span>ID</span>
+        <img
+          src="/img/strelka.PNG"
+          className="strelka"
+          onClick={onSortId}
+          style={{ marginLeft: "20px" }}
+        />
       </div>
-      <div className="caption">
-        <div className="nameCaption" style={{ color: "white" }}>
-          Заголовок
-        </div>
-        <select className="selectCaption">
-          {/* <option>UP</option>
-          <option>Down</option> */}
-        </select>
+      <div className="nameCaptionHeader">
+        <span style={{ color: "white" }}>Заголовок</span>
+        <img
+          src="/img/strelka.PNG"
+          className="strelka"
+          onClick={onSortTitle}
+          style={{ marginLeft: "20px" }}
+        />
       </div>
-      <div className="description">
-        <div className="nameDescription" style={{ color: "white" }}>
-          Описание
-        </div>
-        <select className="descriptionSelect">
-          <option>UP</option>
-          <option>Down</option>
-        </select>
+      <div className="nameDescriptionHeader">
+        <span style={{ color: "white" }}>Описание</span>
+        <img
+          src="/img/strelka.PNG"
+          className="strelka"
+          onClick={onSortTitle}
+          style={{ marginLeft: "20px" }}
+        />
       </div>
     </div>
   );
