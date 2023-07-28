@@ -36,14 +36,16 @@ function SelectPage({
 
   return (
     <div className="selectPage">
-      <button
-        onClick={handlePrevPage}
-        disabled={page === 1}
-        className="btnBackNext"
-      >
-        Назад
-      </button>
-      <div>
+      <div style={{ marginLeft: "-10px" }}>
+        <button
+          onClick={handlePrevPage}
+          disabled={page === 1}
+          className="btnBackNext"
+        >
+          Назад
+        </button>
+      </div>
+      <div style={{ marginLeft: "300px" }}>
         {Array.from({ length: lastPage - firstPage + 1 }, (_, index) => {
           const pageNumber = firstPage + index;
           const isActive = pageNumber === page;
@@ -59,13 +61,15 @@ function SelectPage({
           );
         })}
       </div>
-      <button
-        onClick={handleNextPage}
-        disabled={page === totalPages}
-        className="btnBackNext"
-      >
-        Далее
-      </button>
+      <div style={{ marginLeft: "400px" }}>
+        <button
+          onClick={handleNextPage}
+          disabled={page === totalPages}
+          className="btnBackNext"
+        >
+          Далее
+        </button>
+      </div>
     </div>
   );
 }

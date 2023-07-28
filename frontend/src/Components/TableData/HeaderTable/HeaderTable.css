@@ -5,18 +5,22 @@
   height: 54px;
   margin-top: 15px;
   background-color: #5a5c66;
+  margin-left: 226px;
 }
 
 .idHeader {
   margin-left: 16px;
+  font-weight: 900;
 }
 
 .nameCaptionHeader {
   margin-left: 175px;
+  font-weight: 900;
 }
 
 .nameDescriptionHeader {
   margin-left: 400px;
+  font-weight: 900;
 }
 
 .strelka {
