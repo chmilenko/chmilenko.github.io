@@ -18,5 +18,9 @@
 - Выполнить команду npm start 
 ## Authors
 
-- [Artem Chmil](https://t.me/chmilenko)- Full Stack Developer 
+- [Artem Chmil](https://t.me/chmilenko)- Full Stack Developer
+- 
+## Vue
+
+![vue](https://github.com/chmilenko/sector/assets/108074019/6a7dec1a-2e4f-4f23-a852-593ea9ebf85f)
 
