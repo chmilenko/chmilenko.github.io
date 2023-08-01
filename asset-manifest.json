@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chmilenko/sector/static/css/main.0a25a364.css",
+    "main.js": "/chmilenko/sector/static/js/main.794d9ce6.js",
+    "index.html": "/chmilenko/sector/index.html",
+    "main.0a25a364.css.map": "/chmilenko/sector/static/css/main.0a25a364.css.map",
+    "main.794d9ce6.js.map": "/chmilenko/sector/static/js/main.794d9ce6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a25a364.css",
+    "static/js/main.794d9ce6.js"
+  ]
+}
