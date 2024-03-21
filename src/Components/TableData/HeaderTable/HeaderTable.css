@@ -1,0 +1,35 @@
+.headerTable {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  margin-top: 15px;
+  background-color: #5a5c66;
+}
+
+.idHeader {
+  margin-left: 16px;
+  font-weight: 900;
+}
+
+.nameCaptionHeader {
+  margin-left: 175px;
+  font-weight: 900;
+}
+
+.nameDescriptionHeader {
+  margin-left: 400px;
+  font-weight: 900;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  margin-left: 20px;
+}
+
+.btnSort {
+  border: none;
+  outline: none;
+  background-color: #5a5c66;
+  margin-left: 10px;
+}
