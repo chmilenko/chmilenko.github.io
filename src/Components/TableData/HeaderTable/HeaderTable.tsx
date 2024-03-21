@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./HeaderTable.css";
-import img from "../../../../public/img/strelka";
+// import img from "../../../../public/img/strelka";
 
 function HeaderTable({
   onSortId,
