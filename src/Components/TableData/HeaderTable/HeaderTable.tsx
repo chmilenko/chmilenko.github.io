@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./HeaderTable.css";
-import img from "../../../../public/img/strelka";
+// import img from "../../../../public/img/strelka";
 
 function HeaderTable({
   onSortId,
@@ -20,7 +19,7 @@ function HeaderTable({
       </div>
       <div className="nameCaptionHeader">
         <span style={{ color: "white", fontWeight: 600 }}>Заголовок</span>
-        <img className="arrow" onClick={onSortTitle} />
+        <img className="arrow" onClick={onSortTitle} alt="sort" />
       </div>
       <div className="nameDescriptionHeader">
         <span style={{ color: "white", fontWeight: 600 }}>Описание</span>
