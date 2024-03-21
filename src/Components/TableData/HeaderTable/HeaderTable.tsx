@@ -15,7 +15,7 @@ function HeaderTable({
     <div className="headerTable">
       <div className="idHeader" style={{ color: "white", fontWeight: 600 }}>
         <span>ID</span>
-        <img className="arrow" onClick={onSortId} alt="sort" src={img} />
+        <img className="arrow" onClick={onSortId} alt="sortId" src={img} />
       </div>
       <div className="nameCaptionHeader">
         <span style={{ color: "white", fontWeight: 600 }}>Заголовок</span>

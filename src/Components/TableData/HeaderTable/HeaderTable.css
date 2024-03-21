@@ -4,20 +4,23 @@
   height: 54px;
   margin-top: 15px;
   background-color: #5a5c66;
+  width: 100%;
 }
 
 .idHeader {
-  margin-left: 16px;
+  margin-left: 14px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  width: 9%;
 }
 
 .nameCaptionHeader {
-  margin-left: 175px;
   font-weight: 900;
+  width: 50%;
 }
 
 .nameDescriptionHeader {
-  margin-left: 400px;
   font-weight: 900;
 }
 
@@ -32,4 +35,25 @@
   outline: none;
   background-color: #5a5c66;
   margin-left: 10px;
+}
+@media screen and (max-width: 685px) {
+  .arrow[alt="sortId"] {
+    margin-left: 13px;
+  }
+}
+@media screen and (max-width: 559px) {
+  .arrow[alt="sortId"] {
+    margin-left: 8px;
+  }
+  .idHeader {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .arrow[alt="sortId"] {
+    margin-left: 5px;
+  }
+  .idHeader {
+    margin-left: 6px;
+  }
 }
